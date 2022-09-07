@@ -35,4 +35,4 @@ gpt Partitionstabelle erstellen
 #### Root Format ext4
 	mkfs.ext4 /dev/sda3
 ####/home Format ext4
-	mkfs.ext4 /dev/sda4
+mkfs.ext4 /dev/sda4

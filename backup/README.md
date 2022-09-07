@@ -1,4 +1,4 @@
-# Archlinux Installation VirtualBox 08/2022
+# Archlinu Installation VirtualBox 08/2022
 
 ### Fix PGP Schluessel
 
