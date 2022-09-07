@@ -23,6 +23,7 @@ gpt Partitionstabelle erstellen
 3. 30GB >> / >> LinuxFileSystem
 4. Rest >> /home >> LinuxFileSystem
 5. Write >> Quit
+### List Block
 	lsblk
 ### Partitionsformat
 #### EFI Format Fat 32
@@ -31,6 +32,7 @@ gpt Partitionstabelle erstellen
 	mkswap /dev/sda2
 #### SWAP aktivieren
 	swapon /dev/sda2
-#### root Format ext4
+#### Root Format ext4
 	mkfs.ext4 /dev/sda3
+####/home Format ext4
 	mkfs.ext4 /dev/sda4
